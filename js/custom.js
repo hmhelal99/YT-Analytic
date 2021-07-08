@@ -20,7 +20,7 @@ chrome.tabs.query({
 
 
 function GetVideoDetails(VideoID) {
-    let APIKey = "AIzaSyAsxja5bWhuw7mY4TXMzrqNxtV-O1XIE2U";
+    let APIKey = "Your API Key Here";
     let VideoUniqueID = VideoID;
     let RestURL = "https://www.googleapis.com/youtube/v3/videos?id=" + VideoUniqueID + "&key=" + APIKey + "&part=snippet,contentDetails,statistics,status";
 
